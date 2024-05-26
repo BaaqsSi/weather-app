@@ -1,7 +1,8 @@
 # weather-app
-weather app weatherstackis daxmarebit
-aplikacia sheqmnilia pythonis sashvelebit gamoyenebulia sqlite json da requests library.
-chaweret terminalshi nebismieri qalaqi da gaigebt zust aminds da descriptions tu rogori amindia qalaqshi
-es yvelaperi ki ianxeba json fileshi da sqlite databaseshi.
+aplikacia, romeli iqenebs Weatherstack API-s, dawerilia Python-is sashvelebit gamoyenebulia SQLite, JSON da Requests bibliotekebi.
+Es aplikacia mushaobs terminalshi,user chawers sasurvel lokacias da gaigebs zust aminds.Es yvelaperi ki ianxeba json fileshi da sqlite databasesshi.
+apis 250requestis limitiaq amitomac sheidzleba error amoagdos limits rom miaxwevs.
 
-rame kitxva tu gagichdebat ubralod feel free to comment...  
+momavalshi shemidzlia gadavaketo da shevmqna es aplikacia tkintershi.
+
+rame kitxva tu gagichdebat feel free to comment...
