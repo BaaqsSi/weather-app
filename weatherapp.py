@@ -18,8 +18,10 @@ if response.status_code == 200:
     data = response.json()
 
     if "current" in data:
+        #json fileshi informaciis gadasatanad
         with open("weather_data.json","w") as json_file:
             json.dump(data, json_file, indent=4) 
+        #sqlite connectis damyareba
         conn = sqlite3.connect('weather_data.db')
         c = conn.cursor()
 
@@ -34,6 +36,7 @@ if response.status_code == 200:
 
         conn.commit()
         conn.close()
+        #terminalshi informaciis gamotana
         print("Weather information for", location)
         print("Temperature:", data["current"].get("temperature"), "°C")
         print("Weather Description:", data["current"].get("weather_descriptions", ["N/A"])[0])
