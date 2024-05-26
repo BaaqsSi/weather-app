@@ -33,8 +33,9 @@ if response.status_code == 200:
                      )''')
         c.execute("INSERT INTO weather (location, temperature, weather_description) VALUES (?, ?, ?)",
                   (location, data["current"].get("temperature"), data["current"].get("weather_descriptions", ["N/A"])[0]))
-
+        
         conn.commit()
+        #sqlite tan connectionis dasruleba
         conn.close()
         #terminalshi informaciis gamotana
         print("Weather information for", location)
