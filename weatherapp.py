@@ -18,6 +18,8 @@ if response.status_code == 200:
     data = response.json()
 
     if "current" in data:
+        with open("weather_data.json","w") as json_file:
+            json.dump(data, json_file, indent=4) 
         conn = sqlite3.connect('weather_data.db')
         c = conn.cursor()
 
