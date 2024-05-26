@@ -9,7 +9,7 @@ url = f"http://api.weatherstack.com/current?access_key={access_key}"
 #user -- is inputi lokaciis gasagebad
 location = input("chawere sasurveli lokacia:  ")
 
-querystring = {"query": location}#weatherstackis documentaciidan gadmotanili ---
+querystring = {"query": location}
 
 
 response = requests.get(url, params=querystring)
@@ -35,7 +35,7 @@ if response.status_code == 200:
         conn.commit()
         conn.close()
         print("Weather information for", location)
-        print("Temperature:", data["current"].get("temperature"), "°C")#esec weatherstackis documentaciidan gadmotanili--
+        print("Temperature:", data["current"].get("temperature"), "°C")
         print("Weather Description:", data["current"].get("weather_descriptions", ["N/A"])[0])
     else:
         print("weatheris info araris xelmisawvdomi (albat)")
