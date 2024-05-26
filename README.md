@@ -1,8 +1,7 @@
-# weather-app
-aplikacia, romeli iqenebs Weatherstack API-s, dawerilia Python-is sashvelebit gamoyenebulia SQLite3, JSON da Requests modulebi.
-Es aplikacia mushaobs terminalshi,user chawers sasurvel lokacias da gaigebs zust aminds.Es yvelaperi ki ianxeba json fileshi da sqlite databasesshi.
-apis 250requestis limitiaq amitomac sheidzleba error amoagdos limits rom miaxwevs.
+weather აპლიკაცია,რომელიც იყენებს weatherstack API-ს,დაწერილია  Python-ის საშველებით გამოყენებულია  SQLite3, JSON da Requests მოდულები.
+ეს აპლიკაცია მუშაობს ტერმინალში,user ჩაწერს სასურველ ლოკაციას და გაიგებს ზუსტ ამინდს.ეს ყველაფერი კი ინახება json ფაილში და sqlite დათაბეიზში.
+API-s 250request-ის ლიმიტიაქ ამიტომაც შეიძლება error ამოაგდოს ლიმიტს რომ მიახწვს.
 
-momavalshi shemidzlia gadavaketo da shevmqna es aplikacia tkintershi.
+მომავალში შემიძლია გადავაკეთო და შევქმნა ეს აპლიკაცია tkinter - ში.
 
-rame kitxva tu gagichdebat feel free to comment...
+რამე კითხვა თუ გაგიჩნდებათ feel free to comment....
